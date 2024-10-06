@@ -1,0 +1,11 @@
+Structureer de tekst van deze webpagina. Om te weten hoe de indeling precies is, kan je de Wikipedia-pagina van dat onderwerp bekijken.Let op: aangezien Wikipedia-teksten regelmatig gewijzigd worden, is het mogelijk dat de huidige Wikipedia-pagina niet meer volledig dezelfde is als de tekst, maar een erg groot verschil zal er wellicht niet zijn.
+
+Maak gebruik van opsommingstekens voor lijstjes waar dat nodig is.
+Hier en daar zijn vreemde tekens weggevallen. Vergelijk met de Wikipedia-pagina en maak gebruik van escape-codes om de vreemde tekens in je tekst op te nemen.
+
+Ontwerp drie verschillende stijlpagina’s, zodat je dezelfde webpagina op drie heel verschillende manieren opmaakt. Je geeft ze de namen:
+* opmaak1.css
+* opmaak2.css
+* opmaak3.css
+
+In je webpagina maak je een link naar slechts één van de stijlpagina’s. Door die link te wijzigen, krijgt de webpagina dus een heel andere opmaak.
