@@ -2,45 +2,84 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
+    max-width: 1000px;
+    padding: 20px; /* Equal padding on all sides */
+    border: 2px solid #c3c3c3;
+    margin: 0 auto; /* Centers the content */
+    box-sizing: border-box; /* Makes sure padding is inside max-width */
 }
 
 h1 {
     color: navy;
-    font-size: large;
-	font-weight: bold;
-	font-size: xx-large;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 h2 {
     color: rgb(0, 0, 0);
-	font-weight: bold;
-	font-size: larger;
+    font-weight: bold;
+    font-size: larger;
 }
 
 footer {
     margin-top: 20px;
-    /*text-align: center;*/
+    text-align: center;
     color: white;
+    background-color: rgba(0, 0, 0, 0.495);
+    padding: 10px 0;
 }
-p{
-	padding-left: 5px;
+
+p {
+    padding-left: 20px;
+    padding-right: 20px; /* Add padding to right */
 }
-ul{
-	padding-top: 10px;
-	padding-left: 25px;
-	background-color: rgb(243, 243, 243);
-	border-radius: 10px;
-	width: 220px;
-	height: 105px;
+
+ul {
+    padding: 10px 25px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    width: auto;
 }
-.edited{
-	padding-top: 10px;
-	padding-left: 25px;
-	background-color: rgb(115, 115, 115);
-	border-radius: 10px;
-	width: 550px;
-	height: 200px;
+
+hr {
+    width: 80%;
+    color: black;
+    height: 1px;
+    background-color: black;
+    margin-left: 0; 
 }
-h3{
-	font-weight: 5;
+
+a {
+    color: rgb(9, 9, 175);
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.hyperlist {
+    text-decoration: none;
+}
+
+/*theme selector*/
+.theme-selector {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px; /* Adding padding for left */
+    padding-right: 20px; /* Adding padding for right */
+}
+
+.theme-selector legend {
+    font-weight: bold;
+}
+
+.theme-selector label {
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: left;
+}
+
+.theme-selector input[type="radio"] {
+    margin-right: 8px;
 }

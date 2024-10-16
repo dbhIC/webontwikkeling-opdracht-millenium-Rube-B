@@ -1,4 +1,90 @@
+/* dark-theme.css */
 body {
-	background-color: black;
-	}
+    background-color: rgb(34, 34, 34); /* Donkere achtergrond */
+    color: rgb(230, 230, 230); /* Lichte tekst */
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    padding: 20px;
+    border: 2px solid #555; /* Donkere rand */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
+h1 {
+    color: lightblue; /* Lichtblauwe kleur voor de titel */
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(230, 230, 230); /* Lichte kleur voor subtitels */
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.7); /* Donkergrijze footer */
+    padding: 10px 0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white; /* Witte tekst in paragrafen */
+}
+
+ul {
+    padding: 10px 25px;
+    background-color: rgb(55, 55, 55); /* Donkere grijstint voor de lijstachtergrond */
+    border-radius: 10px;
+    width: auto;
+}
+
+hr {
+    width: 80%;
+    color: rgb(200, 200, 200); /* Lichtere lijn */
+    height: 1px;
+    background-color: rgb(200, 200, 200);
+    margin-left: 0; 
+}
+
+a {
+    color: rgb(144, 205, 255); /* Lichtblauwe hyperlinks */
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+    color: white; /* Witte kleur voor h3 elementen */
+}
+
+.hyperlist {
+    text-decoration: none;
+}
+
+/*theme selector*/
+.theme-selector {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.theme-selector legend {
+    font-weight: bold;
+    color: white; /* Witte kleur voor legend */
+}
+
+.theme-selector label {
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: left;
+    color: white; /* Witte kleur voor de tekst naast de bolletjes */
+}
+
+.theme-selector input[type="radio"] {
+    margin-right: 8px;
+}

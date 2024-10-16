@@ -1,4 +1,90 @@
+/* grey-theme.css */
 body {
-	background-color: gray;
-	}
+    background-color: rgb(139, 139, 139); /* Grijze achtergrond */
+    color: rgb(255, 255, 255); /* Witte tekst */
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    padding: 20px; /* Gelijke padding aan alle kanten */
+    border: 2px solid #707070; /* Donkergrijze rand */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
+h1 {
+    color: lightgrey; /* Lichtgrijze kleur voor de titel */
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: white; /* Witte kleur voor subtitels */
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.7); /* Donkergrijs voor de footer */
+    padding: 10px 0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white; /* Witte tekst in paragrafen */
+}
+
+ul {
+    padding: 10px 25px;
+    background-color: rgb(180, 180, 180); /* Lichtere grijstint voor achtergrond */
+    border-radius: 10px;
+    width: auto;
+}
+
+hr {
+    width: 80%;
+    color: white; /* Witte lijn */
+    height: 1px;
+    background-color: white;
+    margin-left: 0; 
+}
+
+a {
+    color: rgb(70, 130, 180); /* Lichtblauwe hyperlinks */
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+    color: white; /* Witte kleur voor h3 elementen */
+}
+
+.hyperlist {
+    text-decoration: none;
+}
+
+/*theme selector*/
+.theme-selector {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.theme-selector legend {
+    font-weight: bold;
+    color: white; /* Witte kleur voor legend */
+}
+
+.theme-selector label {
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: left;
+    color: white; /* Witte kleur voor de tekst naast de bolletjes */
+}
+
+.theme-selector input[type="radio"] {
+    margin-right: 8px;
+}
