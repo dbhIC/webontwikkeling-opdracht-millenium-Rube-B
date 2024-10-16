@@ -3,10 +3,10 @@ body {
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
     max-width: 1000px;
-    padding: 20px; /* Equal padding on all sides */
+    padding: 20px;
     border: 2px solid #c3c3c3;
-    margin: 0 auto; /* Centers the content */
-    box-sizing: border-box; /* Makes sure padding is inside max-width */
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -31,7 +31,7 @@ footer {
 
 p {
     padding-left: 20px;
-    padding-right: 20px; /* Add padding to right */
+    padding-right: 20px;
 }
 
 ul {
@@ -66,8 +66,8 @@ h3 {
 .theme-selector {
     font-family: Arial, sans-serif;
     margin-top: 20px;
-    padding-left: 20px; /* Adding padding for left */
-    padding-right: 20px; /* Adding padding for right */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .theme-selector legend {
