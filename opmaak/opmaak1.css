@@ -1,4 +1,85 @@
 body {
-	background-color: white;
-	}
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    padding: 20px;
+    border: 2px solid #c3c3c3;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
+h1 {
+    color: navy;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.495);
+    padding: 10px 0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    padding: 10px 25px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    width: 93%;
+}
+
+hr {
+    width: 80%;
+    color: black;
+    height: 1px;
+    background-color: black;
+    margin-left: 0; 
+}
+
+a {
+    color: rgb(9, 9, 175);
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.hyperlist {
+    text-decoration: none;
+}
+
+/*theme selector*/
+.theme-selector {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.theme-selector legend {
+    font-weight: bold;
+}
+
+.theme-selector label {
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: left;
+}
+
+.theme-selector input[type="radio"] {
+    margin-right: 8px;
+}

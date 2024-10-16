@@ -1,4 +1,90 @@
+/* dark-theme.css */
 body {
-	background-color: black;
-	}
+    background-color: rgb(34, 34, 34);
+    color: rgb(230, 230, 230);
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    padding: 20px;
+    border: 2px solid #555;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 
+h1 {
+    color: lightblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.7);
+    padding: 10px 0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+ul {
+    padding: 10px 25px;
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+    width: 93%;
+}
+
+hr {
+    width: 80%;
+    color: rgb(200, 200, 200);
+    height: 1px;
+    background-color: rgb(200, 200, 200);
+    margin-left: 0; 
+}
+
+a {
+    color: rgb(144, 205, 255);
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.hyperlist {
+    text-decoration: none;
+}
+
+/*theme selector*/
+.theme-selector {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.theme-selector legend {
+    font-weight: bold;
+    color: white;
+}
+
+.theme-selector label {
+    margin-right: 15px;
+    display: inline-flex;
+    align-items: left;
+    color: white;
+}
+
+.theme-selector input[type="radio"] {
+    margin-right: 8px;
+}
